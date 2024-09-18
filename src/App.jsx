@@ -9,6 +9,9 @@ import StaticPages from "./Position/StaticExample/StaticPages";
 import FixedPages from "./Position/FixedExampel/FixedPages";
 import Sticky from "./Position/StickyExample/Sticky";
 import StickyPages from "./Position/StickyExample/StickyPages";
+import DrawerPages from "./Drawer/DrawerPages";
+import InputFile from "./Input File/InputFile";
+import InputPages from "./Input File/InputPages";
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
           <Route path="/fixed" element={<FixedPages />} />
           <Route path="/static" element={<StaticPages />} />
           <Route path="/sticky" element={<StickyPages />} />
+          <Route path="/drawer" element={<DrawerPages />} />
+          <Route path="/inputFile" element={<InputPages />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -11,6 +11,7 @@ const Sticky = () => {
             <p>Judul</p>
           </div>
           {/* Isi Content */}
+
           {name.map((val) => (
             <div className="w-full bg-white pb-1 border">
               <p>{val}</p>
